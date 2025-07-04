@@ -36,6 +36,11 @@ const firebaseConfig = {
   appId: "1:912755788300:web:7bb47a058ecc9f2e963c29",
 };
 
+console.log(
+  "Chave de API a ser usada:",
+  process.env.REACT_APP_FIREBASE_API_KEY
+);
+
 const appId = firebaseConfig.projectId;
 
 // Opções de status
